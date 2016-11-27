@@ -1,6 +1,6 @@
 # Summary
 
-* [My Awesome API](README.md)
+* [Introduction](README.md)
 * [Defining Methods](methods.md)
 * [Introduction](introduction.md)
    * [Emne](emne.md)
