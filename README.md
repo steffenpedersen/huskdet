@@ -1,5 +1,5 @@
-# Hi
+# Hi! ☺
 
 ![Steffen](assets/profile.png)
 
-### Info
+Hosted at [huskdet.steffenp.dk](https://huskdet.steffenp.dk/)
