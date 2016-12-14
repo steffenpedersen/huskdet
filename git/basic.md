@@ -25,32 +25,31 @@ $ sudo rm -rf .git
 
 Check the status of a Git project.
 
+```
 $ sudo rm -rf .git
+```
 
 Add files
 
+```
 $ git add -A
-
 $ git add README.md
+```
 
 Commit the files \(Add a tag\)
 
+```
 $ git commit -m "Added the README file"
+```
 
 Ship the files
 
+```
 $ git push  
+```
 
+Get all the new data
 
-  
-
-
-
-
-
-
-  
-
-
-
-
+```
+$ git pull  
+```
