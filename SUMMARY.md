@@ -10,6 +10,7 @@
 * [Git](git/README.md)
     * [Basics](git/basic.md)
 * [SCSS](scss/README.md)
+    * [Features](scss/features.md)
 * [JavaScript](javascript/README.md)
 * [AngularJS](angularjs/README.md)
 * [Interface Design](interface/README.md)
