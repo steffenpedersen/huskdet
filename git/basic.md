@@ -54,14 +54,17 @@ Get all the new data
 $ git pull
 ```
 
+Clone a repository
+
+```
+$ git clone https://github.com/steffenpedersen/test.git
+```
+
 Merge a git branch into master
 
 ```
-$ git checkout master 
-$ git pull origin master 
-$ git merge test 
+$ git checkout master
+$ git pull origin master
+$ git merge test
 $ git push origin master
 ```
-
-
-
