@@ -106,8 +106,6 @@ nav {
 }
 ```
 
-### 
-
 ### Partials
 
 You can create partial SCSS files that contains parts of code. These can be included in other SCSS files.
@@ -126,5 +124,5 @@ You can now import other files. Notice that `_` and `.scss` is not included.
 
 ### Operators
 
-...
+Doing math in your CSS is very helpful. SCSS has a handful of standard math operators like `+`, `-`, `*`, `/`, and `%`.
 
