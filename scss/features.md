@@ -7,7 +7,7 @@ Sass/SCSS lets you use features that don't exist in CSS like variables, nesting,
 Variables is a way to store information that you want to reuse throughout your stylesheet.
 
 ```css
-$font-stack:    Helvetica, sans-serif;
+$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
@@ -46,7 +46,43 @@ When your CSS is generated it'll look like this:
 
 ### Extend/Inheritance
 
-...
+`@extend` lets you share a set of CSS properties from one selector to another. It helps keeping your SCSS DRY\(don't repeat yourself\).
+
+```css
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+```
+
+When your CSS is generated it'll look like this:
+
+```css
+.message, .success, .error {
+  border: 1px solid #cccccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}
+```
 
 ### Nesting
 
