@@ -1,3 +1,5 @@
+# Set Up Git
+
 Download and install the latest version of Git.
 
 ```
