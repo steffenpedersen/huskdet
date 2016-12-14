@@ -45,11 +45,23 @@ $ git commit -m "Added the README file"
 Ship the files
 
 ```
-$ git push  
+$ git push
 ```
 
 Get all the new data
 
 ```
-$ git pull  
+$ git pull
 ```
+
+Merge a git branch into master
+
+```
+$ git checkout master 
+$ git pull origin master 
+$ git merge test 
+$ git push origin master
+```
+
+
+
