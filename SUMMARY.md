@@ -8,6 +8,7 @@
     * [Code](markdown/code.md)
     * [Extra](markdown/extra.md)
 * [Git](git/README.md)
+    * [Basics](git/basic.md)
 * [SCSS](scss/README.md)
 * [JavaScript](javascript/README.md)
 * [AngularJS](angularjs/README.md)
