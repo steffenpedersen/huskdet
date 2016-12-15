@@ -1,4 +1,4 @@
-# JavaScript and the DOM
+# JavaScript and the DOM 1
 
 With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
 
@@ -43,7 +43,7 @@ document.write(myNewCountry + "<br>");
 Here I create a heading and throws it on the page.
 
 ```js
-// Create a heading tag 
+// Create a heading tag
 var heading = document.createElement('H3');
 
 // Add text to heading
@@ -68,7 +68,7 @@ div.style.height = '500px';
 div.style.border = '1px solid #e5e5e5';
 
 // Append Element to DOM
-document.body.appendChild(div); 
+document.body.appendChild(div);
 
 // Add Event Listener
 div.addEventListener('mousemove', function(event) {
@@ -113,6 +113,3 @@ input('click', theElement('DIV'), output);
 ```
 
 ![](/assets/dec.-15-2016 14-24-25.gif)
-
-
-

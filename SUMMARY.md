@@ -9,7 +9,8 @@
 * [AngularJS](angularjs/README.md)
 * [JavaScript](javascript/README.md)
     * [Vanilla JS &\#x1F60B;](javascript/vanilla.md)
-    * [JavaScript and the DOM](javascript/thedom.md)
+    * [JavaScript and the DOM](javascript/thedom-1.md)
+    * [JavaScript and the DOM](javascript/thedom-2.md)
     * [jQuery](javascript/jquery.md)
 * [Interface Design](interface/README.md)
     * [Interface FAQ](interface/interface-faq.md)
@@ -26,4 +27,3 @@
     * [Extra](markdown/extra.md)
 * [Backend](backend/README.md)
 * [Development Environments](interface/README.md)
-
