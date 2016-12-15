@@ -26,7 +26,7 @@ $ sudo rm -rf .git
 Check the status of a Git project.
 
 ```
-$ sudo rm -rf .git
+$ git status
 ```
 
 Add files
@@ -34,6 +34,7 @@ Add files
 ```
 $ git add -A
 $ git add README.md
+$ git add .
 ```
 
 Commit the files \(Add a tag\)
@@ -57,7 +58,7 @@ $ git pull
 Clone a repository
 
 ```
-$ git clone https://github.com/steffenpedersen/test.git
+$ git clone https://github.com/steffenpedersen/test.git (foldername)
 ```
 
 Merge a git branch into master
