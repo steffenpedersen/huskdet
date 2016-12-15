@@ -114,9 +114,5 @@ input('click', theElement('DIV'), output);
 
 ![](/assets/dec.-15-2016 14-24-25.gif)
 
-```js
-document.write("Hello");
-```
-
 
 
