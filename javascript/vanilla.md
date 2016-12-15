@@ -56,5 +56,38 @@ document.write(result);
 
 ### ![](/assets/Skærmbillede 2016-12-15 kl. 12.37.11.png)
 
+JavaScript **arrays** are used to store multiple values in a single variable.
+
+```js
+var a = ["cat", "dog", 5, false]; 
+document.write(a[1]);
+```
+
+### ![](/assets/Skærmbillede 2016-12-15 kl. 12.41.02.png)
+
+A JavaScript **function** is a block of code that performs a particular task.
+
+```js
+function hello(who) { 
+  document.write("Hello " + who); 
+} 
+hello("you");
+```
+
+### ![](/assets/Skærmbillede 2016-12-15 kl. 12.50.15.png)
+
+**Conditional statements** are used to perform different actions based on different conditions. You can also use else if, `<`, `>=`, `<=`, `==`, `!=`.
+
+```js
+var a = 9;
+if (a > 10) {
+  document.write("The number is greater than 10");
+} else {
+  document.write("The number is not greater than 10");
+}
+```
+
+### 
+
 
 
