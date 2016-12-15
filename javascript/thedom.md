@@ -84,23 +84,23 @@ div.addEventListener('mousemove', function(event) {
 
 **BETTER CODE**
 
-🇩🇰 Her stiller jeg det op med brug af functions. Dette gør, at jeg nemmere kan ændre inputs.
+🇩🇰 Her stiller jeg det op med brug af functions. Dette gør, at jeg nemmere kan ændre inputs. `callback`...
 
 ```js
-function theElement(element) {
-  var newElement = document.createElement(element);
-  newElement.style.height = '500px';
-  newElement.style.border = '1px solid #e5e5e5';
-  document.body.appendChild(newElement);
-  return newElement;
-}
-
 function input(inputEvent, DOMElement, callback) { //mousemove, div, asynchronous
   DOMElement.addEventListener(inputEvent, function(event) {
     var x = event.clientX;
     var y = event.clientY;
     callback(DOMElement, x, y);
   });
+}
+
+function theElement(element) {
+  var newElement = document.createElement(element);
+  newElement.style.height = '500px';
+  newElement.style.border = '1px solid #e5e5e5';
+  document.body.appendChild(newElement);
+  return newElement;
 }
 
 function output(element, x, y) {
