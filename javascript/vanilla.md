@@ -87,7 +87,29 @@ if (a > 10) {
 }
 ```
 
-### 
+### ![](/assets/Skærmbillede 2016-12-15 kl. 13.01.09.png)
+
+**Loops** can execute a block of code a number of times.
+
+```js
+for (statement 1; statement 2; statement 3) { 
+  code block to be executed 
+}
+```
+
+Statement 1 is executed _before_ the loop \(the code block\) starts.
+
+Statement 2 defines the _condition_ for running the loop \(the code block\).
+
+Statement 3 is executed each time _after the loop_ \(the code block\) has been executed.
+
+```js
+for (i=0;i<5;i++) {
+  document.write("Iteration " + i + "<br>");
+}
+```
+
+![](/assets/Skærmbillede 2016-12-15 kl. 13.09.40.png)
 
 
 
