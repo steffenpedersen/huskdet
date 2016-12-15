@@ -4,19 +4,35 @@
 
 Semicolons separate JavaScript statements.
 
-document.write\("Hello"\);
+```js
+document.write("Hello");
+```
 
 JavaScript variables are containers for storing data values.
 
+```js
 var intVar = 5;
-
 var stringVar = "fish";
-
 var boolianVar = true;
-
 // comment
+```
+
+The + operator can also be used to add \(concatenate\) strings. You can also use `+`, `-`, `*`, `/`, `%`, `++` \(Increment\), `--` \(Decrement\).
+
+```js
+var words = "This is"; 
+var morewords = " a sentence"; 
+var sentence = words + morewords; 
+document.write(sentence);
+```
 
 
+
+
+
+
+
+### 
 
 
 
