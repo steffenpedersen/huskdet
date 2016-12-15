@@ -12,7 +12,7 @@ The **HTML DOM** model is constructed as a tree of **Objects**:
 
 **OBJECTS**
 
-I have described what an object is in Vanilla JS. Here I create a variable with an object. I accesses it and change the value. 
+I have described what an object is in Vanilla JS. Here I create a variable with an object. I accesses it and change the value.
 
 ```js
 var object = {
@@ -56,6 +56,8 @@ document.body.appendChild(heading);
 ![](/assets/Skærmbillede 2016-12-15 kl. 14.29.52.png)
 
 **EVENT LISTENERS**
+
+🇩🇰 Her opretter jeg en `<div>` og tilføjer styling. Derefter smider jeg det på siden gennem `appendChild()`. Jeg tilføjer derefter en `addEventListener` på `<div>`  som lytter efter `console.log` og musens position. Dette definerer jeg til tekst og `backgroundColor`.
 
 ```js
 // Create DIV Element
