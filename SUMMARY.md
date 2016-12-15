@@ -14,6 +14,7 @@
     * [Features](scss/features.md)
 * [JavaScript](javascript/README.md)
     * [Vanilla JS &#x1F60B;](javascript/vanilla.md)
+    * [JavaScript and the DOM](javascript/thedom.md)
     * [jQuery](javascript/jquery.md)
 * [AngularJS](angularjs/README.md)
 * [Interface Design](interface/README.md)
