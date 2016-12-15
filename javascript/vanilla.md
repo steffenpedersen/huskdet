@@ -1,5 +1,7 @@
 # Vanilla JS
 
+**The basics**
+
 ![](/assets/Skærmbillede 2016-12-15 kl. 12.08.02.png)
 
 Semicolons separate JavaScript **statements**.
@@ -110,6 +112,4 @@ for (i=0;i<5;i++) {
 ```
 
 ![](/assets/Skærmbillede 2016-12-15 kl. 13.09.40.png)
-
-
 
