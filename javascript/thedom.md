@@ -84,6 +84,8 @@ div.addEventListener('mousemove', function(event) {
 
 **BETTER CODE**
 
+🇩🇰 Her stiller jeg det op med brug af functions. Dette gør, at jeg nemmere kan ændre inputs.
+
 ```js
 function theElement(element) {
   var newElement = document.createElement(element);
