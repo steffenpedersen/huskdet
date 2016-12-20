@@ -21,16 +21,12 @@ function time() {
 
 Jeg definerer først en række variabler ud fra `Date` objektet og bruger dets methods. Jeg definerer et array og bruger `map() method`, som kalder en function én gang for hvert element i et array. Hvis et tal er under 10, så skal den sætte et `0`. Det er i strings.
 
-
-
 > **Conditional\(ternary\)Operator**
 >
 > `condition ? expr1 : expr2`
 >
 > If condition is true, the operator returns the value of expr1; otherwise, it returns the value of expr2.
-
-
-
+>
 > The map\(\) method calls the provided function once for each element in an array, in order.
 
 ```js
@@ -77,9 +73,11 @@ function init() {
 init();
 ```
 
-Her laver jeg en function, som samler det hele og jeg kalder derefter denne function. Jeg bruger en `setInterval()` method.
+Her laver jeg en function, som samler det hele og jeg kalder derefter denne function. Jeg bruger `setInterval()` og `clearInterval()` methods.
 
 > The setInterval\(\) method calls a function or evaluates an expression at specified intervals \(in milliseconds\).
+>
+> The setInterval\(\) method will continue calling the function until clearInterval\(\) is called, or the window is closed.
 >
 > Tip: 1000 ms = 1 second.
 
