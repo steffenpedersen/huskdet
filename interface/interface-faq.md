@@ -29,60 +29,38 @@ Det er de to ting, som han mener, der **udgør et godt design**. **Discoverabili
 
 ### 7. What is the difference between user experience and Usability? Can you design usability and user experience?
 
-UX er den totale oplevelse en bruger har med et produkt.
+Vi kan ikke designe en brugeroplevelse, men vi kan designe brugervenlighed. **Brugervenlighed** sker på skærmen og **brugeroplevelsen** sker i hovedet på brugeren
 
-Usability er et ældre udtryk. Usability er mere pragmatisk - fokus på at udføre en handling. - UX har mere fokus på brugerens totale oplevelse samt følelser.
-
-Usability aspekter som informations arkitektur og interfacen kan højne eller ødelægge UX.
-
-
+![](/assets/Skærmbillede-2016-06-17-kl.-13.17.51-1024x287.png)
 
 ### 8. What is an Interface? In what different ways can we understand interface?
 
 [Interface uddybet](https://mikejakobsen.gitbooks.io/web-development/content/interface-design/interface.html)
 
-En måde at levere et mål. Skabe en _wrapper_ for brugeren.
-
-Sortere data, og leverer relevant info.
-
-Oversætter fra A til B. Fra bevægelse til 1 taller og 0'er..
-
-
+Et **interface** er en forbindelse som gør noget forståeligt mellem to parter.
 
 ### 9. What is pliability? And how is it related to user experience?
 
 [Pliability](http://www.mikejakobsen.com/pdf/pliability.pdf)  
 [Lesson10](http://www.mikejakobsen.com/pdf/lesson10.pdf)
 
-At oplevelsen fremsta�r flydende og modellerbar. Samt kan tilpasses min situation.
-
-A pliable interaction is one where the user is drawn into a sense of shaping the digital information with his/her fingertips.
-
-
+**Pliability** det er hvor meget kontrol brugerne føler han/hun har over noget. Det er f.eks. det gamle kort på Krak, hvor man på kortet skulle trykke for at navigere rundt. Ved Google Maps trækker vi det bare rundt og på den måde føles det, som om man har mere kontrol. Det skaber naturlighed for brugeren \(UX\).
 
 ### 10. What is meant by temporal and spatial elements of user experience? What does this have to do with designing user experience?
 
-_Spatial_ \(space\) det fysiske.
+Spatial \(space\): Det refererer til en dimension af et design, som kan ses uden forstyrrelse. 
 
-Refers to the dimension of a design which you can see without abstraction. It is what can be “touched” or moved. It’s the “physical” manifestation.
+> Det er hvad der kan røres eller flyttes. Det er den fysiske del. F.eks. Squares med billeder under vores squares-creation. Spatial kan designes. Viden om designvalg og experience er her vigtigt.
 
-_Temporal_ \(temporary\).  
-Følelsen af den totale oplevelse.
+Temporal \(midlertidig\): Det refererer til en dimension af design som udvikler sig over tid. 
 
-```
-Is the dimensions of a design which evolves over time. The feel of the interaction that changes as you engage in it. 
-The emerges of aesthetics.
-```
-
-
+> Følelsen af interaktionen som ændres ved at interagerer med det. F.eks. Squares, hvor det er muligt at ændre sit billede med nye små billeder – billedet forandrer sig over tid. Temporal kan ikke designes, men vi kan lave ting som har indflydelse på det. Viden om brugerne er her vigtigt.
 
 ### 11. What is meant by engagement and enchantment when talking about user experience? How can either one be “designed”.
 
 [Lesson10](http://www.mikejakobsen.com/pdf/lesson10.pdf)
 
 Enchantment er en måde at fortrylle brugeren, og dermed inddrage ham. Svært at opnå med webdesign. Engagement - engagere brugeren.
-
-
 
 ### 12. What is fluency? And how is it related to user experience?
 
@@ -102,8 +80,6 @@ Føles smukt, og lettilgængelig.
 The purpose of this thesis was to show that fluency is the underlying, cognitive variable when judging beauty and 
 usability
 ```
-
-
 
 ### 13. Persona. What is a user persona? How do you create one and what is the purpose of a persona?
 
@@ -138,8 +114,6 @@ _Use cases_ focus on the technical system and less on the user himself:
 
 Use cases can be used to focuson problematic interaction with a system that you want to improve. They tend to see all users as equal and make no distinction for context or use situation.
 
-
-
 ### 14. What is a primary user persona and how is it different form a secondary user persona?
 
 Side 88.
@@ -149,8 +123,6 @@ Side 88.
 **Secondary** er næsten tilfreds med primary. Men har få mangler/tilføjelser. Evt. flere secondary personas.
 
 **Supplemental** supplerende persona. Deres behov er opfyldte af _Primary/secondary_.
-
-
 
 ### 15. When would you build a scenario? How would you structure it, and are there different types? If so what is the difference?
 
@@ -167,13 +139,9 @@ Use cases, on the other hand, are a technique based on exhaustive descriptions o
 
 ![Scenario](../assets/scenatio2.jpg)
 
-
-
 ### 16. What is user research? Why is important to do user research and what kind of data do you collect?
 
 For at delvist hæve designet fra subjektivt til objektivt.
-
-
 
 ### 17. What is user research? Why is important to do user research and what kind of data do you collect?
 
@@ -181,13 +149,9 @@ Side 41
 
 Kvantitativ research kan kun besvare “hvor mange?” og “hvor meget?”. Kan hjælpe med at fastslå et behov. Men ikke hvad der skal til for at opfylde behovet.Kan hjælpe med at fastslå et marked/behov, men ikke hvad det marked mangler. Eller hvad behovet er præcist.
 
-
-
 ### 18. When doing user research in design; what are the major benefits and drawbacks from qualitative research?
 
 Anvendes til at opnå indsigt af dybdegående og eksplorativ karakter. Kvalitative markedsanalyser besvarer ofte spørgsmål som ”hvad”, ”hvorfor” og ”hvordan”. Det kræver meget tid og indsamling af data er meget kompliceret ift. at man kan spørge på forskellige måder.
-
-
 
 ### 19. When would you use an unstructured interview? And when would you use a structured interview?
 
@@ -197,21 +161,15 @@ Ustruktureret interview forsøger at klarligge noget specifikt.
 
 Ustruktureret interview: Interviewet udvikler sig under udførelsen – intervieweren spørger mere ind ift. de svar personen får. Struktureret interview: Et interview med plan for spørgsmål der følges.
 
-
-
 ### 20. What is a competitor analysis? Why could it be a good idea to do a competitor analysis and what kind of data does it produce
 
 En konkurrent analyse, klarligge relevante markedstiltag. Findes det? Hvad gør andre godt?
-
-
 
 ### 21. Why would you use a focus group for data collection instead of an Interview?
 
 Focus group skaber en synergy, imellem de adspurgte. **En Ping/pong effekt**. Der er med til at klarligge ting. Samt en fokusgruppe kan være mere kritisk, da det enkelt individ muligvis vil "please" den spørgende. En effekt der er aftagende i en gruppe.
 
 Mere eksplorativ af natur end et interview.
-
-
 
 ### 22. Why would you use a field observation or participation for data collection? What is the difference between them?
 
@@ -225,8 +183,6 @@ Field observation _\(Fluen på væggen\)_.
 Participation _\(Bossen der kommer med på job\)_
 
 Observation dernæst interview er bedst - observere for at opnå indsigt, dernæst spørgsmål til at klarligge hvorfor.
-
-
 
 ### 23. What is an A/B split test and what does it tell you about your design? Are there any similar test methods?
 
@@ -244,14 +200,11 @@ _Aktiv_
 * User interviews
 * Heuristic evalution
 
-
 ### 24. When would you use a questionnaire to gather information about users? What are the benefits and potential drawbacks of this method?
 
 Billig.
 
 Kvantitativ data. Indblik i markedet, og bruger adfærd statistisk set.
-
-
 
 ### 25. How can you conduct a user test in order to try out information structure, navigation and layout of your design?
 
@@ -259,13 +212,9 @@ Low fidelity - Trunk-test, kort sortering.
 
 High fidelity - Heat maps, tænke høj test. Interviews
 
-
-
 ### 26. What is idiomatic design? And how is it different from metaphorical design? Where is it mostly used?
 
 [Metaforer](https://mikejakobsen.gitbooks.io/web-development/content/interface-design/metaphors.html)
-
-
 
 ### 27. How do you use metaphors in design and why are they so controversial?
 
@@ -273,27 +222,19 @@ Tænk Gem/Diskette. Oprindeligt en metafor for et fysisk objekt. Nu Idiomatic, l
 
 Forståelse på tværs af kulturer kan være forskellige.
 
-
-
 ### 28. What is Mobile first and what are the strengths and drawbacks of it?
 
 Progressive enhancement. Rå prioritering af indhold. Fra mobil og op.
 
-
-
 ### 29. What positive benefits do you get when choosing between mobile apps that are; responsive, adaptive, native and hybrids?
 
 LOL. Ta' den på gefühlen.
-
-
 
 ### 30. What is content prioritization? Why is it important and how can you structure it?
 
 Tænk EB.dk - Når alt er prioriteret er intet prioriteret.
 
 Baseres på user feedback. Hvad er vigtigt?
-
-
 
 ### 31. What is Data visualization and why do some consider data to be the new soil? Where can you use data visualization to improve UX?
 
@@ -305,21 +246,15 @@ Et landskab brugeren kan gå på opdagelse i.
 
 Data is the new oil: Ligesom at de lande der har meget olie er rige, vil de firmaer der har meget data, være de førende.
 
-
-
 ### 32. What is a communication strategy and what implications does it have for you function as a web developer in a company?
 
 En måde at viderekommunikere en virksomheds, værdier, mission og mål.
-
-
 
 ### 33. What is the difference between the old and the new media sphere? Why is planning for engagement important in the new media sphere?
 
 Monolog - Web 1.0 - Lineært.
 
 Dialog - Web 2.0
-
-
 
 ### 34. What is a Wicked Problem? And what does it have to do with interface design?
 
@@ -333,7 +268,7 @@ _Wicked Problem_ Et tværtydigt problem. Et design er fx. en løsning på et wic
 **The case is a wicked problem because the solution is not true-or-false but good-or-bad.**
 
 ```
- Involves people and social relations with different goals.
+Involves people and social relations with different goals.
 
  Solve them by doing research to inform choices and focus on users.
 
@@ -341,8 +276,6 @@ _Wicked Problem_ Et tværtydigt problem. Et design er fx. en løsning på et wic
 ```
 
 ![Wicked Problem](https://copip.files.wordpress.com/2013/04/wicked.jpg)
-
-
 
 ### 35. What is HCI and from where does the concept originate? Who invented the first mouse, and what is The mother of all Demos?
 
@@ -356,8 +289,6 @@ En præsentation i 1968, af en nærmest komplet computer.
   Hi-res skærm, Musen, Windows, Fil deling, Beskeder, Keyboard, En fysisk genvejsknap. Knee Controller \(Symaskine\)
 
 [Wiki empiri](https://en.wikipedia.org/wiki/The_Mother_of_All_Demos)
-
-
 
 ### 36. Why do some believe that website design is dead? What do they believe has replaced it, and Why?
 
