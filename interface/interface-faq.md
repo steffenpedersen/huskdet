@@ -139,19 +139,17 @@ _Aktiv_
 
 ### 24. When would you use a questionnaire to gather information about users? What are the benefits and potential drawbacks of this method?
 
-Billig.
-
-Kvantitativ data. Indblik i markedet, og bruger adfærd statistisk set.
+Vi vil bruge det til at indsamle data i **kvantitativ** format. Fordelen er at vi kan lave statistik på det - det er nemt at sætte op. Ulempen er at man ikke kan se hvem der bliver testet og det er ikke dybdegående.
 
 ### 25. How can you conduct a user test in order to try out information structure, navigation and layout of your design?
 
-Low fidelity - Trunk-test, kort sortering.
-
-High fidelity - Heat maps, tænke høj test. Interviews
+Trunk-test, tænke-højt-test, heat maps, test af sitemap \(kortsortering\).
 
 ### 26. What is idiomatic design? And how is it different from metaphorical design? Where is it mostly used?
 
 [Metaforer](https://mikejakobsen.gitbooks.io/web-development/content/interface-design/metaphors.html)
+
+~~**Idiomatic design** er hvordan man løser noget på en hjemmeside - det er meget naturlig menneske proces. **Metaforisk design** er bygget på intensionen - meget med ikoner med at man trykker på delete-ikonet. ~~
 
 ### 27. How do you use metaphors in design and why are they so controversial?
 
