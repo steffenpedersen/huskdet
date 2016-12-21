@@ -104,7 +104,7 @@ Det anvendes til at opnå indsigt af dybdegående og eksplorativ karakter. Kvali
 
 ### 19. When would you use an unstructured interview? And when would you use a structured interview?
 
-**Ustruktureret interview**: Interviewet udvikler sig under udførelsen. Det opnår mere dybdegående indsigt. 
+**Ustruktureret interview**: Interviewet udvikler sig under udførelsen. Det opnår mere dybdegående indsigt.
 
 **Struktureret interview**: Interviewet har en plan som følges. Det opnår mere faktuel indsigt.
 
@@ -114,28 +114,18 @@ Vi kan bruge en konkurrrentanalyse til at se hvad vores konkurrenter gør rigtig
 
 ### 21. Why would you use a focus group for data collection instead of an Interview?
 
-Focus group skaber en synergy, imellem de adspurgte. **En Ping/pong effekt**. Der er med til at klarligge ting. Samt en fokusgruppe kan være mere kritisk, da det enkelt individ muligvis vil "please" den spørgende. En effekt der er aftagende i en gruppe.
-
-Mere eksplorativ af natur end et interview.
+Det er en gruppe, som bliver spurgt ind til opfattelser, meninger om et produkt. Kombinationen af folk med forskellige idéer generer en god synergi-effekt. Men det er vigtigt at holde det åbent, da folk også nemt bliver påvirket af hinanden – mennesket vil gerne høre til majoriteten.
 
 ### 22. Why would you use a field observation or participation for data collection? What is the difference between them?
 
-Side 43.
-
-```
-Most people are incapable of accurately assessing their own behaviors,2 especially when these behaviors are removed from the context of people’s activities.
-```
-
 Field observation _\(Fluen på væggen\)_.  
-Participation _\(Bossen der kommer med på job\)_
+Participation _\(Vi kommer med på job\)._
 
-Observation dernæst interview er bedst - observere for at opnå indsigt, dernæst spørgsmål til at klarligge hvorfor.
+Man opnår dybdegående indsigt.
 
 ### 23. What is an A/B split test and what does it tell you about your design? Are there any similar test methods?
 
-![Passic](../assets/passiv.jpg)
-
-A/B split test, er en måde at vægte to løsning imod hinanden. To løsningsforslag, vægtet imod hinanden.
+A/B split test \(Google Analytics\) er en måde at vægte to løsninger imod hinanden.
 
 _Passiv_
 
