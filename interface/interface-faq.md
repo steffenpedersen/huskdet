@@ -163,60 +163,50 @@ Man designer fra mobil til større devices \(progressive enhancement\). Det er e
 
 ### 29. What positive benefits do you get when choosing between mobile apps that are; responsive, adaptive, native and hybrids?
 
-**Responsive:** Den passer til alle skærmstørrelser. 
+**Responsive:** Den passer til alle skærmstørrelser.
 
-**Adaptive:** Den giver bedre kontrol over de forskellige styles. Det er en til hver størrelse. 
+**Adaptive:** Den giver bedre kontrol over de forskellige styles. Det er en til hver størrelse.
 
-**Native:** Den er udviklet til det bestemte device. Her kan man få kontakt til de indbyggede funktioner \(kamera\). 
+**Native:** Den er udviklet til det bestemte device. Her kan man få kontakt til de indbyggede funktioner \(kamera\).
 
-**Hybrids:** Den er billig at lave. Den kan give 404 fejl og responderer ikke så godt.
+**Hybrids:** Den er billig at lave \(wep-app\). Den kan give 404 fejl og responderer ikke så godt.
 
 ### 30. What is content prioritization? Why is it important and how can you structure it?
 
-Tænk EB.dk - Når alt er prioriteret er intet prioriteret.
+Det omhandler at **prioritere sit indhold** vedrørende forskellige **enheder**. Hvad skal brugerne se først? De skal ikke scrolle gennem et hav af billeder for at finde vigtigt indhold. Det skal struktureres ved brugerbehov og personas.
 
-Baseres på user feedback. Hvad er vigtigt?
+Step 1: List alt det indhold som er brugbart
+
+Step 2: Diskutere og prioritere indhold ift. målsætning
 
 ### 31. What is Data visualization and why do some consider data to be the new soil? Where can you use data visualization to improve UX?
 
-Data bliver hurtigt meget komplekst. _\(Tænk Excelark\)_ Svær at forstå.
+**Data visualization:** Data i tal bliver hurtigt uoverskueligt og kompleks, hvor man ikke forstår helheden. Hvis det visualiseres, så er det nemmere at forstå og sammenligne.
 
-Visualisering gør det nemmere at forstå, samt udtrykke problematikker. **Fortælle en historie**
+Det er **"the new soil"**, fordi at man har indsamlet en masse data de seneste år, hvor man så kan gro nye projekter derudfra. 
 
-Et landskab brugeren kan gå på opdagelse i.
-
-Data is the new oil: Ligesom at de lande der har meget olie er rige, vil de firmaer der har meget data, være de førende.
+Vi bruge data til at vide mere om brugerne til at forbedre vores **UX**.
 
 ### 32. What is a communication strategy and what implications does it have for you function as a web developer in a company?
 
-En måde at viderekommunikere en virksomheds, værdier, mission og mål.
+En kommunikationsstrategi er en plan til at kommunikere, som passer til firmaets mission, værdier og mål. 
+
+> I en kommunikationsstrategi har man sidens indhold og en prioriteret liste over hvordan det indhold skal vises. Det handler om at finde de værdier, som vi gerne vil kommunikere med vores design og hjemmeside.
 
 ### 33. What is the difference between the old and the new media sphere? Why is planning for engagement important in the new media sphere?
 
-Monolog - Web 1.0 - Lineært.
+**Old media sphere \(monologisk kommunikation/one-to-many\):** Hvor brugerne er passive og modtager indhold. Det kan være TV, radio og reklamer.
 
-Dialog - Web 2.0
+**New media sphere \(dialogisk kommunikation/many-to-many\):** Hvor brugerne kommunikerer på kryds og tværs. Brugeroplevelsen er vigtig, da alle kan udtrykke sin mening. Det kan sociale medier.
 
 ### 34. What is a Wicked Problem? And what does it have to do with interface design?
 
 [Empiri](http://www.mikejakobsen.com/pdf/lesson3.pdf)  
 [Anden empiri](https://copip.wordpress.com/2013/04/13/tame-problems-and-wicked-problems/)
 
-_A tame problem_ - Du ved en knap mangler? Du ved hvor, Og hvilken kode.
+**A tame problem:** Vi ved at en knap mangler! Vi ved hvor den mangler! Vi ved hvilken kode der skal implementeres og hvor.
 
-_Wicked Problem_ Et tværtydigt problem. Et design er fx. en løsning på et wicked problem. Ikke et entydigt ja/nej spørgsmål.
-
-**The case is a wicked problem because the solution is not true-or-false but good-or-bad.**
-
-```
-Involves people and social relations with different goals.
-
- Solve them by doing research to inform choices and focus on users.
-
- Agile development processes fit wicked problems.
-```
-
-![Wicked Problem](https://copip.files.wordpress.com/2013/04/wicked.jpg)
+**Wicked problem:** Det er et wicked problem, når løsningen hverken er true-or-false men good-or-bad. Et design er et wicked problem. Det er svært at give en løsning, som passer alle potentielle brugere lige godt.
 
 ### 35. What is HCI and from where does the concept originate? Who invented the first mouse, and what is The mother of all Demos?
 
