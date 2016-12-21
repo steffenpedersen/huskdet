@@ -84,9 +84,9 @@ Den **primære** er den vigtigste persona og **sekundære** kan være andre segm
 Side 102  
 [Læs Scenario](https://mikejakobsen.gitbooks.io/web-development/content/interface-design/scenarios-in-design.html)
 
-Vi laver scenarios ud fra persona til at virkeliggøre en situation vedrørende et produkt. Det viser hvornår og hvordan et behov opstår, hvad der motiverer brugerne og lign. Vi vil strukturere det med steps og billeder. 
+Vi laver scenarios ud fra persona til at virkeliggøre en situation vedrørende et produkt. Det viser hvornår og hvordan et behov opstår, hvad der motiverer brugerne og lign. Vi vil strukturere det med steps og billeder.
 
-**Present scenario** \(context scenario\): Et scenario som foregår i det givne tidspunkt og fokuserer på iagttagelser og potentielle problemer for den nuværende situation. Laves efter research af brugerne og før skitsering af noget. 
+**Present scenario** \(context scenario\): Et scenario som foregår i det givne tidspunkt og fokuserer på iagttagelser og potentielle problemer for den nuværende situation. Laves efter research af brugerne og før skitsering af noget.
 
 **Future scenario** \(key-path scenario\): Et scenario som fokuserer på de væsentlige brugerinteraktioner og hvordan en persona benytter produktet til at opnå deres mål. Vi viser, hvordan brugerens adfærd bør være, når løsningen er implementeret.
 
@@ -94,27 +94,23 @@ Vi laver scenarios ud fra persona til at virkeliggøre en situation vedrørende 
 
 Vi designer til brugerne, så derfor skal vi forstå brugerne. Det indsamlede data kan være kvantitativ eller kvalitativ.
 
-### 17. What is user research? Why is important to do user research and what kind of data do you collect?
+### 17. When doing user research as part of a design project; what are the major benefits and drawbacks from quantitative research?
 
-Side 41
-
-Kvantitativ research kan kun besvare “hvor mange?” og “hvor meget?”. Kan hjælpe med at fastslå et behov. Men ikke hvad der skal til for at opfylde behovet.Kan hjælpe med at fastslå et marked/behov, men ikke hvad det marked mangler. Eller hvad behovet er præcist.
+**Kvantitativ research** kan kun besvare "hvor mange?" og "hvor meget?". Det kan hjælpe med at fastslå et marked/behov, men ikke hvad det marked mangler - eller hvad behovet præcist er.
 
 ### 18. When doing user research in design; what are the major benefits and drawbacks from qualitative research?
 
-Anvendes til at opnå indsigt af dybdegående og eksplorativ karakter. Kvalitative markedsanalyser besvarer ofte spørgsmål som ”hvad”, ”hvorfor” og ”hvordan”. Det kræver meget tid og indsamling af data er meget kompliceret ift. at man kan spørge på forskellige måder.
+Det anvendes til at opnå indsigt af dybdegående og eksplorativ karakter. Kvalitative markedsanalyser besvarer ofte spørgsmål som ”hvad”, ”hvorfor” og ”hvordan”. Det kræver meget tid og indsamling af data er meget kompliceret, da man kan spørge på forskellige måder.
 
 ### 19. When would you use an unstructured interview? And when would you use a structured interview?
 
-Ustruktureret interview, fremstår mere frit, og eksplorativt. Opnår generel eksplorativ indsigt
+**Ustruktureret interview**: Interviewet udvikler sig under udførelsen. Det opnår mere dybdegående indsigt. 
 
-Ustruktureret interview forsøger at klarligge noget specifikt.
-
-Ustruktureret interview: Interviewet udvikler sig under udførelsen – intervieweren spørger mere ind ift. de svar personen får. Struktureret interview: Et interview med plan for spørgsmål der følges.
+**Struktureret interview**: Interviewet har en plan som følges. Det opnår mere faktuel indsigt.
 
 ### 20. What is a competitor analysis? Why could it be a good idea to do a competitor analysis and what kind of data does it produce
 
-En konkurrent analyse, klarligge relevante markedstiltag. Findes det? Hvad gør andre godt?
+Vi kan bruge en konkurrrentanalyse til at se hvad vores konkurrenter gør rigtig og forkert. Det kan give et billede af hvad konkurrenterne gør. Man kan bruge screenshot benchmarking til at tage screenshots. Det bruges også meget til inspiration.
 
 ### 21. Why would you use a focus group for data collection instead of an Interview?
 
