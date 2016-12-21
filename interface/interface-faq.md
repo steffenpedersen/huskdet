@@ -163,7 +163,13 @@ Man designer fra mobil til større devices \(progressive enhancement\). Det er e
 
 ### 29. What positive benefits do you get when choosing between mobile apps that are; responsive, adaptive, native and hybrids?
 
-LOL. Ta' den på gefühlen.
+**Responsive:** Den passer til alle skærmstørrelser. 
+
+**Adaptive:** Den giver bedre kontrol over de forskellige styles. Det er en til hver størrelse. 
+
+**Native:** Den er udviklet til det bestemte device. Her kan man få kontakt til de indbyggede funktioner \(kamera\). 
+
+**Hybrids:** Den er billig at lave. Den kan give 404 fejl og responderer ikke så godt.
 
 ### 30. What is content prioritization? Why is it important and how can you structure it?
 
