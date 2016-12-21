@@ -183,13 +183,13 @@ Step 2: Diskutere og prioritere indhold ift. målsætning
 
 **Data visualization:** Data i tal bliver hurtigt uoverskueligt og kompleks, hvor man ikke forstår helheden. Hvis det visualiseres, så er det nemmere at forstå og sammenligne.
 
-Det er **"the new soil"**, fordi at man har indsamlet en masse data de seneste år, hvor man så kan gro nye projekter derudfra. 
+Det er **"the new soil"**, fordi at man har indsamlet en masse data de seneste år, hvor man så kan gro nye projekter derudfra.
 
 Vi bruge data til at vide mere om brugerne til at forbedre vores **UX**.
 
 ### 32. What is a communication strategy and what implications does it have for you function as a web developer in a company?
 
-En kommunikationsstrategi er en plan til at kommunikere, som passer til firmaets mission, værdier og mål. 
+En kommunikationsstrategi er en plan til at kommunikere, som passer til firmaets mission, værdier og mål.
 
 > I en kommunikationsstrategi har man sidens indhold og en prioriteret liste over hvordan det indhold skal vises. Det handler om at finde de værdier, som vi gerne vil kommunikere med vores design og hjemmeside.
 
@@ -212,18 +212,15 @@ En kommunikationsstrategi er en plan til at kommunikere, som passer til firmaets
 
 [Lesson 1](http://www.mikejakobsen.com/pdf/lesson1.pdf)
 
-Human Computer Interaction.
-
-Doug Engelbart - _The Mother of all Demos_
-
-En præsentation i 1968, af en nærmest komplet computer.  
-  Hi-res skærm, Musen, Windows, Fil deling, Beskeder, Keyboard, En fysisk genvejsknap. Knee Controller \(Symaskine\)
-
-[Wiki empiri](https://en.wikipedia.org/wiki/The_Mother_of_All_Demos)
+**Human–Computer Interaction:** Man bruger nu mus i stedet for at skrive kommandoer. Det er forbindelsen mellem menneske og computer gennem graphical interfaces. Doug Engelbart opfandt musen i 1968 af træ med en lille lampe på. Den føste computer er Eniac fra 1943.
 
 ### 36. Why do some believe that website design is dead? What do they believe has replaced it, and Why?
 
 [https://mikejakobsen.gitbooks.io/web-development/content/interface-design/why-webdesign-is-dead.html](https://mikejakobsen.gitbooks.io/web-development/content/interface-design/why-webdesign-is-dead.html)
 
-�
+Sergio Nouvel mener, at web design er dødt, da der er mange, som ikke bruger hjemmesider. De bruger i stedet sociale medier som Facebook. Der er desuden mange steder, hvor man hurtigt kan få designet en hjemmeside. Han mener, at man har opfundet alt hvad der er i design. _Mobile is killing the web – apps er bedre_.
+
+Nick Dank mener, at web design bliver vigtigere og vokser. Der er fokus på UX og brugernes følelsesmæssige behov. Han mener ikke, at _mobile is killing the web – mobile first_.
+
+De mener begge, at web design er blevet erstattet af user experience.
 
