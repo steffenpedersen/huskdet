@@ -153,13 +153,13 @@ Trunk-test, tænke-højt-test, heat maps, test af sitemap \(kortsortering\).
 
 ### 27. How do you use metaphors in design and why are they so controversial?
 
-Tænk Gem/Diskette. Oprindeligt en metafor for et fysisk objekt. Nu Idiomatic, lærer fra barnsben at det betyder gem.
+_Tænk Gem/Diskette. _
 
-Forståelse på tværs af kulturer kan være forskellige.
+Vi bruger meget ikoner som metaforer i design. Det kræver, at ens bruger ved, at ikonet har forbindelse til en funktion. Ikoner er begrænset af kulturel forståelse.
 
 ### 28. What is Mobile first and what are the strengths and drawbacks of it?
 
-Progressive enhancement. Rå prioritering af indhold. Fra mobil og op.
+Man designer fra mobil til større devices \(progressive enhancement\). Det er en fordel, at man er sikret, at al indhold er tilgængeligt. ~~Det er en ulempe, at det kan blive overflødigt indhold, som man bruger til at fylde pladsen på større devices.~~
 
 ### 29. What positive benefits do you get when choosing between mobile apps that are; responsive, adaptive, native and hybrids?
 
