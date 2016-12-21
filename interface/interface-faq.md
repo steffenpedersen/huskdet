@@ -60,7 +60,7 @@ Temporal \(midlertidig\): Det refererer til en dimension af design som udvikler 
 
 [Lesson10](http://www.mikejakobsen.com/pdf/lesson10.pdf)
 
-**Enchantment** er en wow-effekt og **engagement** er motivation til at fortsætte. 
+**Enchantment** er en wow-effekt og **engagement** er motivation til at fortsætte.
 
 > Et eksempel med Enchantment er hjemmesiden, hvor vi kunne tegne. Man blev hurtigt træt af det, da der ikke var Engagement.
 
@@ -77,32 +77,22 @@ Det er et billede af en **potentiel bruger**, som man laver af user research. Vi
 
 ### 14. What is a primary user persona and how is it different form a secondary user persona?
 
-Side 88.
-
-**Primary** er det primæare mål for designet._Kun et_ primary persona.
-
-**Secondary** er næsten tilfreds med primary. Men har få mangler/tilføjelser. Evt. flere secondary personas.
-
-**Supplemental** supplerende persona. Deres behov er opfyldte af _Primary/secondary_.
+Den **primære** er den vigtigste persona og **sekundære** kan være andre segmenter, som samtidig er vigtige. _F.eks. med Squares, hvor de primære er brugerne og de sekundære er designerne._
 
 ### 15. When would you build a scenario? How would you structure it, and are there different types? If so what is the difference?
 
 Side 102  
 [Læs Scenario](https://mikejakobsen.gitbooks.io/web-development/content/interface-design/scenarios-in-design.html)
 
-Et narrativ som et design redskab.
+Vi laver scenarios ud fra persona til at virkeliggøre en situation vedrørende et produkt. Det viser hvornår og hvordan et behov opstår, hvad der motiverer brugerne og lign. Vi vil strukturere det med steps og billeder. 
 
-```
-Goal-Directed scenarios are an iterative means of designing a product’s behavior from the standpoint of specific users (personas).
+**Present scenario** \(context scenario\): Et scenario som foregår i det givne tidspunkt og fokuserer på iagttagelser og potentielle problemer for den nuværende situation. Laves efter research af brugerne og før skitsering af noget. 
 
-Use cases, on the other hand, are a technique based on exhaustive descriptions of the system’s functional requirements, often of a transactional nature, focusing on low-level user action and accompanying system response.
-```
-
-![Scenario](../assets/scenatio2.jpg)
+**Future scenario** \(key-path scenario\): Et scenario som fokuserer på de væsentlige brugerinteraktioner og hvordan en persona benytter produktet til at opnå deres mål. Vi viser, hvordan brugerens adfærd bør være, når løsningen er implementeret.
 
 ### 16. What is user research? Why is important to do user research and what kind of data do you collect?
 
-For at delvist hæve designet fra subjektivt til objektivt.
+Vi designer til brugerne, så derfor skal vi forstå brugerne. Det indsamlede data kan være kvantitativ eller kvalitativ.
 
 ### 17. What is user research? Why is important to do user research and what kind of data do you collect?
 
