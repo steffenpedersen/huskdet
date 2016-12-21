@@ -48,11 +48,11 @@ Et **interface** er en forbindelse som gør noget forståeligt mellem to parter.
 
 ### 10. What is meant by temporal and spatial elements of user experience? What does this have to do with designing user experience?
 
-Spatial \(space\): Det refererer til en dimension af et design, som kan ses uden forstyrrelse. 
+Spatial \(space\): Det refererer til en dimension af et design, som kan ses uden forstyrrelse.
 
 > Det er hvad der kan røres eller flyttes. Det er den fysiske del. F.eks. Squares med billeder under vores squares-creation. Spatial kan designes. Viden om designvalg og experience er her vigtigt.
 
-Temporal \(midlertidig\): Det refererer til en dimension af design som udvikler sig over tid. 
+Temporal \(midlertidig\): Det refererer til en dimension af design som udvikler sig over tid.
 
 > Følelsen af interaktionen som ændres ved at interagerer med det. F.eks. Squares, hvor det er muligt at ændre sit billede med nye små billeder – billedet forandrer sig over tid. Temporal kan ikke designes, men vi kan lave ting som har indflydelse på det. Viden om brugerne er her vigtigt.
 
@@ -60,59 +60,20 @@ Temporal \(midlertidig\): Det refererer til en dimension af design som udvikler 
 
 [Lesson10](http://www.mikejakobsen.com/pdf/lesson10.pdf)
 
-Enchantment er en måde at fortrylle brugeren, og dermed inddrage ham. Svært at opnå med webdesign. Engagement - engagere brugeren.
+**Enchantment** er en wow-effekt og **engagement** er motivation til at fortsætte. 
+
+> Et eksempel med Enchantment er hjemmesiden, hvor vi kunne tegne. Man blev hurtigt træt af det, da der ikke var Engagement.
 
 ### 12. What is fluency? And how is it related to user experience?
 
 [Fluency Empiri](http://www.mikejakobsen.com/pdf/fluency.pdf)  
-Side 8 nederst.
-
-* System 1. automatisk - opfattelse af ting.
-* System 2. Eftertænksom, vudere og overvejer.
-
-**System 1** opfatter noget \(intuitivt\), hvorefter **System 2** bearbejder det.
-
-Sammenspillet mellem de to, hvor brugeren bare bliver grebet.
-
-Føles smukt, og lettilgængelig.
-
-```
-The purpose of this thesis was to show that fluency is the underlying, cognitive variable when judging beauty and 
-usability
-```
+Det er diskrette indikatorer. Det er ikke flow! F.eks. at holde fingeren nede på en app på sin iPhone, så de begynder at ryste – fordi at det er en diskret lille besked om, at du kan gøre noget her, men du behøver det ikke.
 
 ### 13. Persona. What is a user persona? How do you create one and what is the purpose of a persona?
 
 [Empiri](http://www.mikejakobsen.com/pdf/lesson3.pdf)
 
-Præsenterer en bruger, som en arketype.
-
-Ikke videreformidling af en typisk brugere, men bruger opførsel indenfor et område.
-
-They personify the design situation and evoking empathy.
-
-Personas are used to build trustworthy scenarios focusing on actual people and not just what the designer thinks or what the client wants.
-
-_Personas..._
-
-... are based on research.  
-... represents types of users of a specific product. ... explore ranges of behaviour.  
-... have motivations.  
-... represents relevant nonusers.
-
-Understanding goals – Goals motivate usage patters and arise from different cognitive processes. More on this later.
-
-```
-Personas should be typical, and believable. But not stereotypical.
-```
-
-Se 68 i bogen.
-
-![Persona](../assets/persona.jpg)
-
-_Use cases_ focus on the technical system and less on the user himself:
-
-Use cases can be used to focuson problematic interaction with a system that you want to improve. They tend to see all users as equal and make no distinction for context or use situation.
+Det er et billede af en **potentiel bruger**, som man laver af user research. Vi laver det ud fra al indsamlet data. Formålet er at personas altid skal tænkes ind over hele designet, da ens primære målgruppe her er defineret.
 
 ### 14. What is a primary user persona and how is it different form a secondary user persona?
 
