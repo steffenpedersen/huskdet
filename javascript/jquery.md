@@ -1,34 +1,37 @@
 # jQuery Basics
 
-
-
-jQuery Hide/Show
+**Hide/Show**
 
 -
 
-jQuery Fade
+**Fade**
 
 -
 
-jQuery Slide
+**Slide**
 
 -
 
-jQuery Animate
+**Animate**
 
 -
 
-jQuery stop\(\)
+**stop\(\)**
 
 -
 
-jQuery Callback
+**Callback**
 
 -
 
-jQuery Chaining
+**Chaining**
 
--  
+-
+
+Filtering
+
+-
+
 
 
 
