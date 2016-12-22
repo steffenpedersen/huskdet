@@ -73,15 +73,11 @@ Kan hjælpe med at fastslå et marked/behov, men ikke hvad det marked mangler. E
 ```
 - What users do, how they do it, when they do it and where.
 
-
 - How old are users, where do they live, what do they do.
-
 
 - Are users happy or unhappy with your product or service.
 
-
 - Is A or B the best solution for this problem (what about C).
-
 
 - It is all about what users do (not what they say or think they do).
 ```
