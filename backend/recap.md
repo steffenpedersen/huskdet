@@ -112,11 +112,11 @@ Med data first opretter vi datamodellen i databasen oftest ved hjælp af SQL Man
 
 ---
 
--
+Strongly typed view specificerer data typen. Det giver fordele med IntelliSense og compile time error checking.
 
 ---
 
-## C\#
+## C\
 
 ---
 
