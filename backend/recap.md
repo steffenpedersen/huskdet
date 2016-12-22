@@ -4,7 +4,7 @@
 * [x] [User interfaces](http://steffenp.dk/weblog/user-interfaces-with-asp-net/)
 * [x] HTML Helper Methods
 * [ ] Model binding
-* [ ] Entity Framework
+* [x] Entity Framework
 * [ ] Code First
 * [ ] Data First
 * [ ] Dynamic v. Strongly Typed Views
@@ -71,6 +71,24 @@ En vigtig del af at lave web applications, består i at skrive noget HTML, som k
 ---
 
 ## Entity Framework
+
+---
+
+ADO.NET er et framework til data access fra Microsoft. Entity Framework er som sagt en object-relational mapper. Den genererer objects og entities på baggrund af databasens tabeller. Entity Framework kan desuden udføre CRUD \(Create, Read, Update, Delete\) operations. Den kan nemt håndtere “1 to 1”, “1 to many”, and “many to many” relationships. Den kan også håndtere inheritance relationships mellem entities. Fordelene ved ADO.NET og Entity Framework er at det genererede data access kode er skrevet i et high-level language \(forståeligt sprog\). Vi kan derfor tilpasse det til behov. [Link](https://www.codeproject.com/articles/363040/an-introduction-to-entity-framework-for-absolute-b)
+
+---
+
+## Code First
+
+---
+
+Med code first starter vi med at definere model med tilhørende classes. Vi tjekker derefter om Entity Framework er installeret gennem NuGet. Vi opretter derefter en DAL-mappe med tilhørende context og initializer. Vi skal huske at tilføje følgende forbindelse under `<entityFramework>` i Web.config:
+
+
+
+---
+
+## Data First
 
 ---
 
