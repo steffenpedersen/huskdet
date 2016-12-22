@@ -1,5 +1,7 @@
 # jQuery Basics
 
+jQuery er det mest brugte JavaScript library.
+
 **Hide/Show**
 
 ```js
