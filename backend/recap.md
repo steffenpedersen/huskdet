@@ -5,8 +5,8 @@
 * [x] HTML Helper Methods
 * [ ] Model binding
 * [x] Entity Framework
-* [ ] Code First
-* [ ] Data First
+* [x] Code First
+* [x] Data First
 * [ ] Dynamic v. Strongly Typed Views
 * [ ] C\# \(OOP\)
 * [ ] Visual Studio
@@ -92,11 +92,63 @@ Med code first starter vi med at definere model med tilhørende classes. Vi tjek
 </contexts>
 ```
 
-Vi kan oprette forbindelse til databasen gennem Server Explorer → Data Connections → Add Connection. I kan se den fulde beskrivelse på dette link. For at tilføje en ændring i models skal vi muliggøre migrations. Dette gør vi gennem Package Manager Console ved at skrive Enable-Migrations. Når vi har lavet en ændring skal vi skrive Add-Migration Navn. For at opdatere databasen skal vi skrive Update-Database. [Link](https://msdn.microsoft.com/en-us/data/jj193542)
+Vi kan oprette forbindelse til databasen gennem Server Explorer → Data Connections → Add Connection. I kan se den fulde beskrivelse på dette link. For at tilføje en ændring i models skal vi muliggøre migrations. Dette gør vi gennem Package Manager Console ved at skrive Enable-Migrations. Når vi har lavet en ændring skal vi skrive Add-Migration Navn. For at opdatere databasen skal vi skrive Update-Database. [Link](https://msdn.microsoft.com/en-us/data/jj193542), [Fordele Ulemper](http://roland.kierkels.net/c-asp-net/ef-model-vs-database-vs-code-first-approach/)
+
+**Seed**
+
+Du kan indsætte data i din databases tabeller under databasens initialiseringsproces. Det gøres i filen CustomerInitializer.cs. Dette vil være vigtigt, hvis du ønsker at give nogle testdata for din applikation eller til at give nogle standard stamdata for din applikation.
 
 ---
 
 ## Data First
+
+---
+
+Med data first opretter vi datamodellen i databasen oftest ved hjælp af SQL Management Studio eller et andet relevant redskab. Her definerer vi tabellerne med værdier og tilføjer primary keys, foreign keys eller andre constraints. Herefter henter vi databasen ind. [Fordele Ulemper](http://roland.kierkels.net/c-asp-net/ef-model-vs-database-vs-code-first-approach/)
+
+---
+
+## Dynamic v. Strongly Typed Views
+
+---
+
+-
+
+---
+
+## C\#
+
+---
+
+-
+
+---
+
+## Visual Studio
+
+---
+
+-
+
+---
+
+## Properties
+
+---
+
+-
+
+---
+
+## Model Validation
+
+---
+
+-
+
+---
+
+## Ajax \(MVC\)
 
 ---
 
