@@ -116,11 +116,23 @@ Strongly typed view specificerer data typen. Det giver fordele med IntelliSense 
 
 ---
 
-## C\#
+## C\
 
 ---
 
--
+C\# er et strongly typed \(alle variabler skal defineres med en type\) og objektorienteret programmeringssprog. Det er case sensitiv, som vil sige at det differentierer mellem små- og store bogstaver. Det er udviklet af Microsoft og gennem .NET.
+
+**Object-oriented programming**
+
+> **Encapsulation**: Vi laver et private field med data, som tilgås med en public property.
+>
+> **Data Hiding**: Hver class kender ikke til indholdet af en anden class. Data hiding er det private field beskrevet i encapsulation som indeholder data.
+>
+> **Specialization**: Et dyr er i mere generel form og hund er mere specialiseret form og racen er endnu mere specialiseret. Dette kan opnås gennem inheritance. Vores eksempel med User -&gt; Student.
+>
+> **Polymorphism**: Virtuel methods tillader os at tilføje polymorphism. Virtuel methods er at subclasses som er nedarvet fra base class kan overskrive methods \(override\).
+>
+> **Division of responsibility: **De har hver deres ansvar. F.eks. i et eksempel med Course og Student.
 
 ---
 
