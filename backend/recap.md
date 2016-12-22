@@ -1,7 +1,7 @@
 # Backend Recap
 
 * [ ] MVC
-* [ ] http://steffenp.dk/weblog/user-interfaces-with-asp-net/
+* [ ] [http://steffenp.dk/weblog/user-interfaces-with-asp-net/](http://steffenp.dk/weblog/user-interfaces-with-asp-net/)
 * [ ] HTML Helper Methods
 * [ ] Model binding
 * [ ] Entity Framework
@@ -11,7 +11,8 @@
 * [ ] C\# \(OOP\)
 * [ ] Visual Studio
 * [ ] Properties
-* [ ] -
+* [ ] Model Validation
+* [ ] Ajax \(MVC\)
 
 
 
