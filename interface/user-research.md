@@ -1,4 +1,6 @@
-# Fra [Weblog](http://steffenp.dk/weblog/user-research-2/)
+Fra [Weblog](http://steffenp.dk/weblog/user-research-2/)
+
+---
 
 Interface design er design af brugerflader. Den del af et program eller web-applikation brugeren interagerer med. Det bedste interface design er en lidt utaknemmelig opgave, da et interface’s fornemmeste opgave er ikke at blive bemærket.
 
@@ -64,7 +66,7 @@ Ulemper ved kvalitativ research
 
 Kvantitativ kan kun besvare"Hvor mange?","Hvor meget?".
 
-Menneskers adfærd er for komplekst til kun at defineres via kvantitativ data. Anvendes til at kortlægge en gruppe af personer på en række ensartede kvantificerbare variable.
+Menneskers adfærd er for komplekst til kun at defineres via kvantitativ data. Anvendes til at kortlægge en gruppe af personer på en række ensartede kvantificerbare variable.
 
 Kan hjælpe med at fastslå et marked/behov, men ikke hvad det marked mangler. Eller hvad behovet er præcist.
 
@@ -82,8 +84,6 @@ Kan hjælpe med at fastslå et marked/behov, men ikke hvad det marked mangler. E
 
 
 - It is all about what users do (not what they say or think they do).
-
-
 ```
 
 Kvantitative markedsanalyser besvarer typisk spørgsmål som ”hvor mange” og ”hvor meget”. Fx: Hvor mange kender mærket xxx? Dvs. indsigt der går i bredden. Læs mere om kvantitative markedsanalyser.
@@ -94,7 +94,7 @@ Ved brug af kvantitativ metode opnår du viden på det manifeste niveau om en br
 
 Bl.a. telefoninterview, online spørgeskema, postalt spørgeskema og hall-test.
 
-### Kvalitativ og Kvantitativ research
+### Kvalitativ og Kvantitativ research
 
 ![](http://steffenp.dk/weblog/wp-content/uploads/2016/06/Sk%C3%A6rmbillede-2016-06-17-kl.-11.38.18-904x1024.png)
 
@@ -131,7 +131,7 @@ Fokuser på hvordan og hvorfor ift. user attitudes og følelser.
 * Exploratory - fokus på opdagelse. I opstarten af design processen. General forståelse af brugerne.
 * Feature prioritization - fokus på form. Fokuser på hvad brugerne vil have produktet skal gøre for dem, hvornår og hvordan. Ex. Journey Map.
 * Trend exploration - fokus på ændring. Bruges ofte i redesign processen.
-* Competitive - fokuser på hvad fungerer. Formålet er at belyse hvad der tiltrækker brugerne med reflektion til konkurrenters produkter. Associationer, oplevelser, behov.
+* Competitive - fokuser på hvad fungerer. Formålet er at belyse hvad der tiltrækker brugerne med reflektion til konkurrenters produkter. Associationer, oplevelser, behov.
 
 Ulemper
 
@@ -147,7 +147,7 @@ Kunsten af at beskrive en gruppe af mennesker, et samfund, dets institutioner, i
 What people think they do ≠ what people actually do
 ```
 
-Formålet med observation og participation er at lære ved at se og deltage for at afdække skjult viden som ellers er forbeholdt medlemmer.
+Formålet med observation og participation er at lære ved at se og deltage for at afdække skjult viden som ellers er forbeholdt medlemmer.
 
 Fokus på kontekst føling med teknologi giver en rigere forståelse af brugerne, som giver en basis for de designvalg der leder til godt design.
 
@@ -160,7 +160,7 @@ Fokus på kontekst føling med teknologi giver en rigere forståelse af brugerne
 
 Observer for at lære om målgruppens kommunikation, værdier og interaktion til at opnå forståelse af konteksten hvori IT benyttes.
 
-Udfordringen er Gatekeepers.
+Udfordringen er Gatekeepers.
 
 _Eksempel med The Jungle on Borneo_
 
@@ -193,7 +193,7 @@ Ved at mikse brugen af fokus grupper, observation, participation og mere tager b
 
 Formålet er at opnå et dybdegående indblik i konkurrenternes produkt, kommunikation, funktioner og eventuelle processer. Ved at analysere konkurrenterne viser os hvordan andre fortolker ens brugerbehov. Ved at fokusere på brugerne viser os hvad brugerne rent faktisk har brug for \(for det meste\).
 
-Den bedste måde at lære industrien, dets trend og bevægelser samt spotte nye muligheder.
+Den bedste måde at lære industrien, dets trend og bevægelser samt spotte nye muligheder.
 
 Opnå indsigt i konkurrenternes styrker og svagheder.
 
@@ -229,7 +229,4 @@ Er det mest visuelle værktøj vi kan bruge tila t tage screenshots af inspirati
 Sammenlign konkurrenternes parametre
 
 ![](http://steffenp.dk/weblog/wp-content/uploads/2016/05/Sk%C3%A6rmbillede-2016-05-08-kl.-12.32.30.png)
-
-  
-
 
