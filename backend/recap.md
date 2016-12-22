@@ -116,7 +116,7 @@ Strongly typed view specificerer data typen. Det giver fordele med IntelliSense 
 
 ---
 
-## C\
+## C\#
 
 ---
 
