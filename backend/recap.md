@@ -84,7 +84,15 @@ ADO.NET er et framework til data access fra Microsoft. Entity Framework er som s
 
 Med code first starter vi med at definere model med tilhørende classes. Vi tjekker derefter om Entity Framework er installeret gennem NuGet. Vi opretter derefter en DAL-mappe med tilhørende context og initializer. Vi skal huske at tilføje følgende forbindelse under `<entityFramework>` i Web.config:
 
+```
+<contexts> 
+    <context type="EksamenEFCF.DAL.CustomerContext, EksamenEFCF"> 
+        <databaseInitializer type="EksamenEFCF.DAL.CustomerInitializer, EksamenEFCF" /> 
+    </context> 
+</contexts>
+```
 
+Vi kan oprette forbindelse til databasen gennem Server Explorer → Data Connections → Add Connection. I kan se den fulde beskrivelse på dette link. For at tilføje en ændring i models skal vi muliggøre migrations. Dette gør vi gennem Package Manager Console ved at skrive Enable-Migrations. Når vi har lavet en ændring skal vi skrive Add-Migration Navn. For at opdatere databasen skal vi skrive Update-Database. [Link](https://msdn.microsoft.com/en-us/data/jj193542)
 
 ---
 
