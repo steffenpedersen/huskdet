@@ -66,8 +66,13 @@ En vigtig del af at lave web applications, består i at skrive noget HTML, som k
 
 ---
 
--  
+-
 
+---
 
+## Entity Framework
 
+---
+
+-
 
