@@ -1,15 +1,17 @@
 # Backend Recap
 
-* [ ] 1
-* [ ] 2
-* [ ] 3
-* [ ] 4
-* [ ] 5
-* [ ] 6
-* [ ] 7
-* [ ] 8
-* [ ] 9
-* [ ] 10
+* [ ] MVC
+* [ ] http://steffenp.dk/weblog/user-interfaces-with-asp-net/
+* [ ] HTML Helper Methods
+* [ ] Model binding
+* [ ] Entity Framework
+* [ ] Code First
+* [ ] Data First
+* [ ] Dynamic v. Strongly Typed Views
+* [ ] C\# \(OOP\)
+* [ ] Visual Studio
+* [ ] Properties
+* [ ] -
 
 
 
