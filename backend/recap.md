@@ -10,9 +10,9 @@
 * [x] Dynamic v. Strongly Typed Views
 * [x] C\# \(OOP\)
 * [x] Visual Studio
-* [ ] Properties
-* [ ] Model Validation
-* [ ] Ajax \(MVC\)
+* [x] Properties
+* [x] Model Validation
+* [x] Ajax \(MVC\)
 
 ---
 
@@ -148,13 +148,42 @@ Et IDE \(integrated development environment\) fra Microsoft. Det benytter værkt
 
 ---
 
--
+Properties er en udvidelse af fields og tilgås ved hjælp af den samme syntaks. De bruger accessors \(get set\) hvorigennem værdierne af de private fields kan \(be\) read, written eller manipulated. [Eksempler](http://steffenp.dk/weblog/properties/)
 
 ---
 
 ## Model Validation
 
 ---
+
+Vi kan bruge model validation til at sikre, at det bruger-indtastet data er valid. Validationen binder sig til modellen og når dataen ikke er valid, så kan den give information the brugeren, som kan hjælpe med at forklare problemet.
+
+```
+if (ModelState.IsValid) {
+```
+
+ModelState er en class, som fanger tilstanden af modellen, som binder sig til en property ved en action method. IsValid property får en værdi, som angiver om valideringen lykkedes.
+
+Samlet fortæller det os, om der er model errors tilføjet til ModelState. Det kunne være nogle grundlæggende fejl ved konverteringsproblemer som ikke-numre ved int. Det kunne også være valideringsfejl som DataAnnotations attributter på vores modeller.
+
+**Displaying Validation Messages**
+
+Denne ValidationSummary viser error messages, som bliver registreret ved ModelState i action method.  
+
+
+```
+@using (Html.BeginForm()) {</span>
+
+<span style="font-weight: 400;">@Html.ValidationSummary()
+```
+
+Denne ValidationMessageFor viser error messages for en enkelt model property.
+
+```
+@Html.ValidationMessageFor(m => m.ClientName)
+```
+
+**Validation Using Metadata**
 
 -
 
@@ -164,5 +193,5 @@ Et IDE \(integrated development environment\) fra Microsoft. Det benytter værkt
 
 ---
 
--
+AJAX er en del af JavaScript, som er client-side sprog. Formålet med AJAX er at vi kan lave http requests uden at skulle genloade controlleren og dermed siden.
 
