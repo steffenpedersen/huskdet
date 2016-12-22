@@ -7,9 +7,9 @@
 * [x] Entity Framework
 * [x] Code First
 * [x] Data First
-* [ ] Dynamic v. Strongly Typed Views
-* [ ] C\# \(OOP\)
-* [ ] Visual Studio
+* [x] Dynamic v. Strongly Typed Views
+* [x] C\# \(OOP\)
+* [x] Visual Studio
 * [ ] Properties
 * [ ] Model Validation
 * [ ] Ajax \(MVC\)
@@ -126,11 +126,11 @@ C\# er et strongly typed \(alle variabler skal defineres med en type\) og objekt
 
 > **Encapsulation**: Vi laver et private field med data, som tilgås med en public property.
 >
-> **Data Hiding**: Hver class kender ikke til indholdet af en anden class. Data hiding er det private field beskrevet i encapsulation som indeholder data.
+> **Data Hiding**: Hver class kender ikke til indholdet af en anden class. Data hiding er det private field beskrevet i encapsulation som indeholder data.
 >
 > **Specialization**: Et dyr er i mere generel form og hund er mere specialiseret form og racen er endnu mere specialiseret. Dette kan opnås gennem inheritance. Vores eksempel med User -&gt; Student.
 >
-> **Polymorphism**: Virtuel methods tillader os at tilføje polymorphism. Virtuel methods er at subclasses som er nedarvet fra base class kan overskrive methods \(override\).
+> **Polymorphism**: Virtuel methods tillader os at tilføje polymorphism. Virtuel methods er at subclasses som er nedarvet fra base class kan overskrive methods \(override\).
 >
 > **Division of responsibility: **De har hver deres ansvar. F.eks. i et eksempel med Course og Student.
 
@@ -140,7 +140,7 @@ C\# er et strongly typed \(alle variabler skal defineres med en type\) og objekt
 
 ---
 
--
+Et IDE \(integrated development environment\) fra Microsoft. Det benytter værktøjer, som gør det hele lettere for en som udvikler, som f.eks. IntelliSense der bl.a. indeholder Parameter Info, Quick Info og Complete word \(eksempel i Controller\). Det indeholder bl.a. ASP.NET, ADO.NET osv.
 
 ---
 
