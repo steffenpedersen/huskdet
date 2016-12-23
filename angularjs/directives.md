@@ -1,6 +1,6 @@
-## **Directives \(ng-directives\)**
+# **Directives \(ng-directives\)**
 
-**ngModel**
+## **ngModel**
 
 The `ngModel` directive binds an input, select, textarea \(or custom form control\) to a property on the scope.
 
@@ -12,7 +12,7 @@ The `ngModel` directive binds an input, select, textarea \(or custom form contro
 
 ![](/assets/dec.-23-2016 21-03-49.gif)
 
-**ng-repeat**
+## **ng-repeat**
 
 ```
 function UsersCtrl($scope) {
@@ -31,3 +31,4 @@ function UsersCtrl($scope) {
 ```
 
 ![](/assets/Skærmbillede 2016-12-23 kl. 21.18.05.png)
+
