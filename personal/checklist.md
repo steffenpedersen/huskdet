@@ -1,1 +1,12 @@
-✔️
+# Checklist ✔️
+
+
+
+✔️ Atom
+
+✔️ iTerm
+
+✔️ Git
+
+✔️ -
+
