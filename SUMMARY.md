@@ -20,6 +20,7 @@
     * [jQuery](javascript/jquery.md)
 * [Personal](personal/README.md)
     * [iTerm](personal/iterm.md)
+    * [Checklist](personal/checklist.md)
 * [Markdown](markdown/README.md)
     * [Text & Quotes](markdown/textquotes.md)
     * [Lists](markdown/lists.md)
