@@ -1,4 +1,4 @@
-## Filtering
+# Filtering
 
 ```
 function UsersCtrl($scope) {

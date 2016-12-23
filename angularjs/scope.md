@@ -1,4 +1,4 @@
-## $scope
+# $scope
 
 $scope is special object designed to allow communication between controller and the view.
 

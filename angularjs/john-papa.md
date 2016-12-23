@@ -1,1 +1,1 @@
-## John Papa: Angular Style Guide
+# John Papa: Angular Style Guide
