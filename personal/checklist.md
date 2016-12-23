@@ -1,12 +1,7 @@
 # Checklist ✔️
 
 
-
-✔️ Atom
-
-✔️ iTerm
-
-✔️ Git
-
-✔️ -
-
+- [x] Atom
+- [x] iTerm
+- [x] Git
+- [ ] Not done
