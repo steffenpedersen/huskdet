@@ -1,6 +1,6 @@
-## Controller
+# Controller
 
-**Binding Events To Controller**
+## **Binding Events To Controller**
 
 We can bind view events with functions defined in controller. That allows us to keep all data and logic regarding site section in one place.
 
@@ -26,4 +26,5 @@ function UsersCtrl($scope) {
 </div>
 ```
 
-![](/assets/dec.-23-2016 21-37-28.gif)  
+![](/assets/dec.-23-2016 21-37-28.gif)
+
