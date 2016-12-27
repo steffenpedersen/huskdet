@@ -1,5 +1,7 @@
 # Controller
 
+You can have multiple controllers on your site. Each of the controller can be responsible for different parts of page. Usually each controller is kept in separate file - in this way we can easier keep order in our project.
+
 ## **Binding Events To Controller**
 
 We can bind view events with functions defined in controller. That allows us to keep all data and logic regarding site section in one place.
