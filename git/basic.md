@@ -61,6 +61,24 @@ Clone a repository
 $ git clone https://github.com/steffenpedersen/test.git (foldername)
 ```
 
+Create branch
+
+```
+$ git checkout -b [name_of_your_new_branch]
+```
+
+Push the branch on github
+
+```
+$ git push origin [name_of_your_new_branch]
+```
+
+See all branches
+
+```
+$ git branch
+```
+
 Merge a git branch into master
 
 ```
