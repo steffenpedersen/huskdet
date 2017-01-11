@@ -7,6 +7,7 @@
 * [SCSS](scss/README.md)
     * [Features](scss/features.md)
 * [AngularJS](angularjs/README.md)
+    * [Modules](angularjs/modules.md)
     * [Directives](angularjs/directives.md)
     * [Controller](angularjs/controller.md)
     * [Component](angularjs/component.md)
