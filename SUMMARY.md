@@ -20,6 +20,7 @@
     * [JavaScript and the DOM](javascript/thedom-2.md)
     * [jQuery](javascript/jquery.md)
 * [Personal](personal/README.md)
+    * [Atom](personal/atom.md)
     * [iTerm](personal/iterm.md)
     * [Checklist](personal/checklist.md)
 * [Markdown](markdown/README.md)
