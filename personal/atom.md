@@ -28,7 +28,37 @@ Settings: `⌘ + ,`
 
 ## Styling
 
-`Atom > Stylesheet`
+Open Stylesheet: `Atom > Stylesheet`
+
+Open inspector: `⌘ + alt + i`
+
+```css
+atom-workspace,
+atom-text-editor {
+  font-family: "Operator Mono";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+atom-panel.tool-panel {
+  font-size: 0.88em;
+}
+.entity.other.attribute-name {
+  font-style: italic;
+}
+atom-text-editor::shadow{
+  .entity.other.attribute-name {
+    font-style: italic;
+  }
+  .comment {
+    font-style: italic;
+  }
+}
+
+atom-text-editor.editor pigments-markers::shadow pigments-color-marker.syntax--dot, atom-text-editor pigments-markers::shadow pigments-color-marker.dot, atom-text-editor.editor pigments-markers::shadow pigments-color-marker.syntax--dot, atom-text-editor pigments-markers::shadow pigments-color-marker.dot, atom-text-editor.editor pigments-color-marker.syntax--dot, atom-text-editor pigments-color-marker.dot {
+  transform: translate(0%, -50%) scale(0.8);
+}
+```
 
 
 
