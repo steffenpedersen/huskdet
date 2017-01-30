@@ -308,41 +308,7 @@ Alle function objects er lavet med en prototype property. [JavaScript: The Good 
 
 Det specielle med functions er at de kan kaldes.
 
-* Booleans
 
-  * **Truthy**
-
-  * **Falsy**
-
-* Objects
-
-  * **Hvad er et object?**
-
-  * **declare**
-
-  * **update**
-
-  * **remove / delete**
-
-  * _iterate_
-
-  * **reference**
-
-  * **prototype**
-
-Functions
-
-* * Hvad er en function?
-
-  * declarations
-
-    * function expression
-
-    * function declaration
-
-  * invocation
-
-  * Prototype
 
 
 
