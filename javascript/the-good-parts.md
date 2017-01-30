@@ -6,7 +6,7 @@ De simple typer i JavaScript er numbers, strings, booleans, null og undefined. A
 
 Et object er en container af properties, hvor en property har et navn og en værdi. Et navn på en property kan være en string eller en tom string. En værdi til en property kan være alle værdier i JavaScript pånær undefined.
 
-Objects i JavaScript er class-free. Der er ikke nogen contraint\(begrænsning\) på navnet eller værdien af properties. Objects er brugbare for at indsamle og organisere data. Objects kan indeholde andre objects, så de kan nemt repræsentere et hierarki som et træ. 
+Objects i JavaScript er class-free. Der er ikke nogen contraint\(begrænsning\) på navnet eller værdien af properties. Objects er brugbare for at indsamle og organisere data. Objects kan indeholde andre objects, så de kan nemt repræsentere et hierarki som et træ.
 
 JavaScript inkluderer en prototype linkage\(kobling/forbindelse\), som tillader et object at nedarve properties fra et andet object. Når kan eliminere tidsforbrug og hukommelse/plads.
 
@@ -64,11 +64,7 @@ a = b = c = {};
 
 Alle objects er linket til et prototype object, hvor den kan nedarve properties. Alle objects som er lavet fra object literals\(konstant\) er linket til `Object.prototype` , som er en standard fra JavaScript.
 
-
-
-
-
-_When youmake a new object, youcan select the object that should be its prototype. The mechanism that JavaScript provides to do this is messy and complex, but it can be significantly simplified. We will add a create method to the Object function. The create method creates a new object that uses an old object as its prototype. There will be much more about functions in the next chapter._
+Når vi laver et nyt object, så kan vi vælge dets prototype. Vi kan tilføje en `create method` til object function. Denne `create method` laver et nyt object, som bruger et gammelt object til dets prototype.
 
 ```js
 if (typeof Object.create !== 'function') {
@@ -81,7 +77,7 @@ if (typeof Object.create !== 'function') {
 var another_stooge = Object.create(stooge);
 ```
 
-
+Selve prototype link har ingen effekt ved updating. Når vi laver ændringer til et object, så bliver dets prototype ikke rørt:
 
 ```js
 another_stooge['first-name'] = 'Harry';
@@ -89,28 +85,62 @@ another_stooge['middle-name'] = 'Moses';
 another_stooge.nickname = 'Moe';
 ```
 
-
+Prototype link er kun brugt til at hente. Hvis vi prøver at hente en property value fra et object og hvis object ikke har property name, så prøver JavaScript at få property value fra `prototype object`. Hvis object ikke har property, så går den til dets `prototype` og så videre; indtil at processen når bunden ved `Object.prototype`. Hvis den ønskede property slet ikke eksisterer, så vil resultatet ende med en `undefined value`. Dette hedder _delegation._ Selve prototype relationship er et dynamisk relationship. Hvis vi tilføjer en ny property til en prototype, så vil den property være synlig ved at objects, som er baseret på den prototype \(inheritance\).
 
 ```js
 stooge.profession = 'actor';
 another_stooge.profession // 'actor'
 ```
 
+### Delete
 
+Selve `delete` operator kan bruges til at fjerne en property fra et object - hvis den har en. Den vil ikke røre objects i `prototype`. Hvis man fjerner en property fra et object, så kan man måske få lov til at se `prototype`.
+
+```js
+another_stooge.nickname // 'Moe'
+// Remove nickname from another_stooge, revealing
+// the nickname of the prototype.
+
+delete another_stooge.nickname;
+another_stooge.nickname // 'Curly'
+```
+
+### Enumeration/iteration
+
+Selve `for in statement` kan loop over alle property names i et object. Dette vil inkludere alle properties med functions og prototype properties, som vi ikke er interesseret i. Det vil derfor være en god idé at filtrere værdierne, som vi ikke vil have. Vi kan her bruge `hasOwnProperty` method og bruge `typeof` til at ekskludere functions. 
+
+```js
+var name;
+for (name in another_stooge) {
+ if (typeof another_stooge[name] !== 'function') {
+ document.writeln(name + ': ' + another_stooge[name]);
+ }
+}
+```
+
+Der er her ikke nogen garanti for rækkefølgen af navnene. Hvis vi vil sikre os en bestemt rækkefølge, så kan vi lave et array med navnene og bruge `for statement`.
+
+```js
+var i;
+var properties = [
+ 'first-name',
+ 'middle-name',
+ 'last-name',
+ 'profession'
+];
+for (i = 0; i < properties.length; i += 1) {
+ document.writeln(properties[i] + ': ' +
+ another_stooge[properties[i]]);
+}
+```
 
 ## Functions
 
-En function omslutter et sæt af statements. De bruges til at genbruge kode, gemme information og kompositionen. De bruges til at beskrive skrive opførelsen af objects. 
+En function omslutter et sæt af statements. De bruges til at genbruge kode, gemme information og kompositionen. De bruges til at beskrive skrive opførelsen af objects.
 
 ### Function Objects
 
-Functions i JavaScript er objects. Objects er en collection af... 
-
-
-
-
-
-
+Functions i JavaScript er objects. Objects er en collection af...
 
 * Booleans
 
@@ -126,13 +156,13 @@ Functions i JavaScript er objects. Objects er en collection af...
 
   * **update**
 
-  * remove / delete
+  * **remove / delete**
 
   * iterate
 
   * **reference**
 
-  * prototype
+  * **prototype**
 
 Functions
 
