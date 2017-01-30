@@ -2,7 +2,7 @@
 
 ## Methods
 
-Når en function er udført på en property af et object, så kaldes det for en method. Når en method bliver kaldt, så er den bundet til dette object. Dette kan blive gjort gennem dot notation. Vi kan på denne måde få værdier fra object eller ændre object. 
+Når en function er udført på en property af et object, så kaldes det for en method. Når en method bliver kaldt, så er den bundet til dette object. Dette kan blive gjort gennem dot notation. Vi kan på denne måde få værdier fra object eller ændre object.
 
 ```js
 // Create myObject. It has a value and an increment
