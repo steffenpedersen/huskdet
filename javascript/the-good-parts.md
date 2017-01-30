@@ -92,6 +92,41 @@ stooge.profession = 'actor';
 another_stooge.profession // 'actor'
 ```
 
+### Prototype: Eksempel
+
+Her laver vi en function, som log'er `this.sound`. Vi laver object animal med property talk med funktionen talk. Object cat og dog har property sound med værdi "meow" og "woof". Vi bruger `Object.setPrototypeOf()` til at nedarve object animal. Ved object angryDog nedarver vi fra object dog. Ved `animal.talk` tilføjer ved tekst til property `talk`.
+
+```js
+function talk() {
+  console.log(this.sound);
+}
+let animal = {
+  talk: talk
+}
+let cat = {
+  sound: "meow"
+}
+let dog = {
+  sound: "woof"
+}
+let angryDog = {
+  howl: function() {
+    console.log(this.sound.toUpperCase());
+  }
+}
+animal.talk = function() {
+  console.log("I am a little " + this.sound);
+}
+Object.setPrototypeOf(cat, animal);
+cat.talk()
+Object.setPrototypeOf(dog, animal);
+dog.talk()
+Object.setPrototypeOf(angryDog, dog);
+angryDog.howl()
+```
+
+![](/assets/import.png)
+
 ### Delete
 
 Selve `delete` operator kan bruges til at fjerne en property fra et object - hvis den har en. Den vil ikke røre objects i `prototype`. Hvis man fjerner en property fra et object, så kan man måske få lov til at se `prototype`.
@@ -136,7 +171,7 @@ for (i = 0; i < properties.length; i += 1) {
 
 ## Booleans
 
-Ofte vil man gerne bruge en værdi, som kan skelnes mellem to muligheder. Til dette kan man bruge en _Boolean _type, som har to værdier: true og false.
+Ofte vil man gerne bruge en værdi, som kan skelnes mellem to muligheder. Til dette kan man bruge en \_Boolean \_type, som har to værdier: true og false.
 
 ### Truthy
 
@@ -181,23 +216,15 @@ En function omslutter et sæt af statements. De bruges til at genbruge kode, gem
 
 ### Function Objects
 
-Functions i JavaScript er objects. Objects er en samling af name/value, som har et skjult link til et [prototype object](/javascript/the-good-parts.md "Se Objects > Prototype"). 
+Functions i JavaScript er objects. Objects er en samling af name/value, som har et skjult link til et [prototype object](/javascript/the-good-parts.md "Se Objects > Prototype"). Function objects er linket til Function.prototype, som selv er linket til Object.prototype. Alle functions har to skjulte properties, som er function's context og koden, som implementerer funktionens adfærd.
 
+Alle function objects er lavet med en prototype property. [JavaScript: The Good Parts s. 26](http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf)
 
+...
 
+Det specielle med functions er at de kan kaldes.
 
-
-
-
-Functions in JavaScript are objects. Objects are collections of name/value pairs having a hidden link to a prototype object. Objects produced from object literals are linked to Object.prototype. Function objects are linked to Function.prototype \(which is itself linked to Object.prototype\). Every function is also created with two additional hidden properties: the function’s context and the code that implements the function’s behavior. 
-
-Every function object is also created with a prototype property. Its value is an object with a constructor property whose value is the function. This is distinct from the hidden link to Function.prototype. The meaning of this convoluted construction will be revealed in the next chapter. 
-
-Since functions are objects, they can be used like any other value. Functions can be stored in variables, objects, and arrays. Functions can be passed as arguments to functions, and functions can be returned from functions. Also, since functions are objects, functions can have methods. 
-
-The thing that is special about functions is that they can be invoked.
-
-
+ 
 
 
 
