@@ -1,4 +1,4 @@
-# JavaScript: The Good Parts
+# JavaScript: The Good Parts \(and other stuff\)
 
 ## Objects
 
@@ -107,7 +107,7 @@ another_stooge.nickname // 'Curly'
 
 ### Enumeration/iteration
 
-Selve `for in statement` kan loop over alle property names i et object. Dette vil inkludere alle properties med functions og prototype properties, som vi ikke er interesseret i. Det vil derfor være en god idé at filtrere værdierne, som vi ikke vil have. Vi kan her bruge `hasOwnProperty` method og bruge `typeof` til at ekskludere functions. 
+Selve `for in statement` kan loop over alle property names i et object. Dette vil inkludere alle properties med functions og prototype properties, som vi ikke er interesseret i. Det vil derfor være en god idé at filtrere værdierne, som vi ikke vil have. Vi kan her bruge `hasOwnProperty` method og bruge `typeof` til at ekskludere functions.
 
 ```js
 var name;
@@ -134,19 +134,78 @@ for (i = 0; i < properties.length; i += 1) {
 }
 ```
 
+## Booleans
+
+Ofte vil man gerne bruge en værdi, som kan skelnes mellem to muligheder. Til dette kan man bruge en _Boolean _type, som har to værdier: true og false.
+
+### Truthy
+
+I JavaScript er truthy en værdi i forbindelse med Boolean, som kan oversættes til true. Alle værdier er truthy medmindre de er defineret som falsy \(dvs. medmindre for `false`, `0`, `""`, `null`, `undefined`, og `NaN`\).
+
+Dette er eksempler af truthy værdier i JavaScript \(som vil oversætte til true og eksekvere if block\):
+
+```js
+if (true)
+if ({})
+if ([])
+if (42)
+if ("foo")
+if (new Date())
+if (-42)
+if (3.14)
+if (-3.14)
+if (Infinity)
+if (-Infinity)
+```
+
+### Falsy
+
+I JavaScript er falsy en værdi i forbindelse med Boolean, som kan oversættes til false.
+
+Dette er eksempler af falsy værdier i JavaScript \(som vil oversætte til false og eksekvere if block\):
+
+```js
+if (false)
+if (null)
+if (undefined)
+if (0)
+if (NaN)
+if ('')
+if ("")
+if (document.all) [1] // browser detection in the past
+```
+
 ## Functions
 
-En function omslutter et sæt af statements. De bruges til at genbruge kode, gemme information og kompositionen. De bruges til at beskrive skrive opførelsen af objects.
+En function omslutter et sæt af statements. De bruges til at genbruge kode, gemme information og kompositionen. De bruges til at beskrive  opførelsen af objects.
 
 ### Function Objects
 
-Functions i JavaScript er objects. Objects er en collection af...
+Functions i JavaScript er objects. Objects er en samling af name/value, som har et skjult link til et [prototype object](/javascript/the-good-parts.md "Se Objects > Prototype"). 
+
+
+
+
+
+
+
+Functions in JavaScript are objects. Objects are collections of name/value pairs having a hidden link to a prototype object. Objects produced from object literals are linked to Object.prototype. Function objects are linked to Function.prototype \(which is itself linked to Object.prototype\). Every function is also created with two additional hidden properties: the function’s context and the code that implements the function’s behavior. 
+
+Every function object is also created with a prototype property. Its value is an object with a constructor property whose value is the function. This is distinct from the hidden link to Function.prototype. The meaning of this convoluted construction will be revealed in the next chapter. 
+
+Since functions are objects, they can be used like any other value. Functions can be stored in variables, objects, and arrays. Functions can be passed as arguments to functions, and functions can be returned from functions. Also, since functions are objects, functions can have methods. 
+
+The thing that is special about functions is that they can be invoked.
+
+
+
+
 
 * Booleans
 
-  * Truthy
+  * **Truthy**
 
-  * Falsy
+  * **Falsy**
 
 * Objects
 
@@ -158,7 +217,7 @@ Functions i JavaScript er objects. Objects er en collection af...
 
   * **remove / delete**
 
-  * iterate
+  * _iterate_
 
   * **reference**
 
@@ -177,10 +236,6 @@ Functions
   * invocation
 
   * Prototype
-
-```js
-document.write("Hello");
-```
 
 
 
