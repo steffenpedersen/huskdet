@@ -92,9 +92,11 @@ stooge.profession = 'actor';
 another_stooge.profession // 'actor'
 ```
 
-### Prototype: Eksempel
+### Prototype: Eksempel 1
 
 Her laver vi en function, som log'er `this.sound`. Vi laver object animal med property talk med funktionen talk. Object cat og dog har property sound med værdi "meow" og "woof". Vi bruger `Object.setPrototypeOf()` til at nedarve object animal. Ved object angryDog nedarver vi fra object dog. Ved `animal.talk` tilføjer ved tekst til property `talk`.
+
+`animal` er derfor prototype til `cat` og `dog` - `animal` og `dog` er prototype til `angryDog` 
 
 ```js
 function talk() {
@@ -126,6 +128,65 @@ angryDog.howl()
 ```
 
 ![](/assets/import.png)
+
+### Prototype: Eksempel 2.1
+
+Vi laver et object med const, da vi ikke skal ændre den senere. Derefter laver vi en init method, som tager en type. Vi tilføjer denne type til en property. Vi laver en eat method, som log'er tekst og this.type.
+
+Med Object.create kan vi lave nye objects af food.
+
+```js
+const food = {
+  init: function (type) {
+    this.type = type
+  },
+  eat: function() {
+    console.log("you ate the " + this.type);
+  }
+}
+
+const waffle = Object.create(food)
+waffle.init("waffle")
+waffle.eat()
+
+const carrot = Object.create(food)
+carrot.init("carrot")
+carrot.eat()
+```
+
+![](/assets/import1.png)
+
+### Prototype: Eksempel 2.2
+
+`waffle` og `carrot` har `food` som sin prototype. `Object.create` laver et nyt object og tilføjer `food` som prototype. `waffle` og `carrot` vil kun falde tilbage til `food`, hvis den mangler sin property. Hvis den har sin property, så vil den selvfølgelig bruge den.
+
+I dette tilfælde vil den ikke falde tilbage på `food.type`. Det vil den dog gøre, hvis vi udkommenterer `waffle.init()`.
+
+```js
+const food = {
+  init: function (type) {
+    this.type = type
+  },
+  eat: function() {
+    console.log("you ate the " + this.type);
+  }
+}
+
+const waffle = Object.create(food)
+waffle.init("waffle")
+waffle.eat()
+food.type = "fuyfiuhiuhjojphoihohog"
+waffle.eat()
+```
+
+![](/assets/import2.png)
+
+```js
+//waffle.init("waffle")
+//waffle.eat()
+```
+
+![](/assets/import3.png)
 
 ### Delete
 
@@ -223,10 +284,6 @@ Alle function objects er lavet med en prototype property. [JavaScript: The Good 
 ...
 
 Det specielle med functions er at de kan kaldes.
-
- 
-
-
 
 * Booleans
 
