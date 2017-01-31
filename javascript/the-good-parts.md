@@ -338,21 +338,19 @@ Udover de deklarerede parametre, så har alle funktioner to ekstra parametre, so
 
 The invocation operator er et par af parenteser med en expression, som giver en værdi. Parenteserne kan indeholde nul eller flere expressions delt af komma. Hver expression giver en argument value. Disse vil blive tildelt til funktionens parametre. Hvis der er for mange argumenter, vil disse blive ignoreret.
 
-### The Method Invocation Pattern
+#### The Method Invocation Pattern
 
 -
 
-### The Function Invocation Pattern
+#### The Function Invocation Pattern
 
 -
 
-### The Constructor Invocation Pattern
+#### The Constructor Invocation Pattern
 
 -
 
-### The Apply Invocation Pattern
+#### The Apply Invocation Pattern
 
 -
-
-
 
