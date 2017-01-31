@@ -312,8 +312,6 @@ Det specielle med functions er at de kan kaldes.
 
 Function objects er defineret med function literals:
 
-Function objects are created with function literals:
-
 ```js
 // Create a variable called add and store a function
 // in it that adds two numbers.
@@ -328,15 +326,33 @@ Den **første del** er ordet function. Den valgfrie **anden del** er funktionens
 
 Den **tredje del** er funktionens parametre omgivet af parenteser, som tager et sæt af nul eller flere parametre. Disse navne vil blive defineret som variabler i funktionen. Til forskel fra almindelige variabler bliver de _initialiseret_, når funktionen bliver kaldt.
 
- Den **fjerde del** er et sæt af statements omgivet af curly braces\(tuborgklammer\). Disse statements er kroppen til funktionen, som bliver udført, når funktionen bliver kaldt.
+Den **fjerde del** er et sæt af statements omgivet af curly braces\(tuborgklammer\). Disse statements er kroppen til funktionen, som bliver udført, når funktionen bliver kaldt.
 
-En function literal kan være alle steder, hvor en _expression_ kan være. Functions kan blive defineret inde i andre functions. En inner function vil derfor have adgang til begge funktioners parametre og variabler. 
+En function literal kan være alle steder, hvor en _expression_ kan være. Functions kan blive defineret inde i andre functions. En inner function vil derfor have adgang til begge funktioners parametre og variabler.
 
 > An expression is any valid unit of code that resolves to a value.
 
+### Invocation
 
+Udover de deklarerede parametre, så har alle funktioner to ekstra parametre, som er `this` og _arguments_. `this` er meget vigtigt i object oriented programming og dens værdi er defineret i _invocation pattern_. Der er fire patterns \(mønstre\) af invocation \(påkaldelse\) i JavaScript: the _method invocation_ pattern, the _function invocation_ pattern, the _constructor invocation_ pattern, og the _apply invocation_ pattern. Disse patterns gør sig gældende i forhold til parametret `this`.
 
+The invocation operator er et par af parenteser med en expression, som giver en værdi. Parenteserne kan indeholde nul eller flere expressions delt af komma. Hver expression giver en argument value. Disse vil blive tildelt til funktionens parametre. Hvis der er for mange argumenter, vil disse blive ignoreret.
 
+### The Method Invocation Pattern
+
+-
+
+### The Function Invocation Pattern
+
+-
+
+### The Constructor Invocation Pattern
+
+-
+
+### The Apply Invocation Pattern
+
+-
 
 
 
