@@ -33,7 +33,7 @@ Objects i JavaScript er class-free. Der er ikke nogen contraint\(begrænsning\) 
 
 JavaScript inkluderer en prototype linkage\(kobling/forbindelse\), som tillader et object at nedarve properties fra et andet object. Når kan eliminere tidsforbrug og hukommelse/plads.
 
-### Object Literals\(konstant\)
+### Object Literals \(konstant\)
 
 En object literal\(\)konstant er et par af curly braces\(tuborgklammer\), som omfavner nul eller flere name/value.
 
@@ -307,6 +307,34 @@ Alle function objects er lavet med en prototype property. [JavaScript: The Good 
 ...
 
 Det specielle med functions er at de kan kaldes.
+
+### Function Literal \(konstant\)
+
+Function objects er defineret med function literals:
+
+Function objects are created with function literals:
+
+```js
+// Create a variable called add and store a function
+// in it that adds two numbers.
+var add = function (a, b) {
+ return a + b;
+};
+```
+
+En function literal har fire dele.
+
+Den **første del** er ordet function. Den valgfrie **anden del** er funktionens navn. Funktionens navn kan bruges til fremover at kalde den. Navnet kan også bruges af debuggers og developments tools til at identificere funktionen. Hvis en function ikke har fået et navn er den _anonym_.
+
+Den **tredje del** er funktionens parametre omgivet af parenteser, som tager et sæt af nul eller flere parametre. Disse navne vil blive defineret som variabler i funktionen. Til forskel fra almindelige variabler bliver de _initialiseret_, når funktionen bliver kaldt.
+
+ Den **fjerde del** er et sæt af statements omgivet af curly braces\(tuborgklammer\). Disse statements er kroppen til funktionen, som bliver udført, når funktionen bliver kaldt.
+
+En function literal kan være alle steder, hvor en _expression_ kan være. Functions kan blive defineret inde i andre functions. En inner function vil derfor have adgang til begge funktioners parametre og variabler. 
+
+> An expression is any valid unit of code that resolves to a value.
+
+
 
 
 
