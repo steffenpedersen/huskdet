@@ -1,28 +1,5 @@
 # JavaScript: The Good Parts \(and other stuff\)
 
-## Methods
-
-Når en function er udført på en property af et object, så kaldes det for en method. Når en method bliver kaldt, så er den bundet til dette object. Dette kan blive gjort gennem dot notation. Vi kan på denne måde få værdier fra object eller ændre object.
-
-```js
-// Create myObject. It has a value and an increment
-// method. The increment method takes an optional
-// parameter. If the argument is not a number, then 1
-// is used as the default.
-var myObject = {
- value: 0,
- increment: function (inc) {
- this.value += typeof inc === 'number' ? inc : 1;
- }
-};
-myObject.increment( );
-document.writeln(myObject.value); // 1
-myObject.increment(2);
-document.writeln(myObject.value); // 3
-```
-
-A method can use this to access the object so that it can retrieve values from the object or modify the object. The binding of this to the object happens at invocation time. This very late binding makes functions that use this highly reusable. Methods that get their object context from this are called public methods.
-
 ## Objects
 
 De simple typer i JavaScript er numbers, strings, booleans, null og undefined. Alle andre værdier er objects. Numbers, strings og booleans er object-like, da de har methods, men er immutable\(uforanderlig\). I JavaScript, arrays er objects, functions er objects, regular expressions er objects og objects er objects.
@@ -340,11 +317,54 @@ The invocation operator er et par af parenteser med en expression, som giver en 
 
 #### The Method Invocation Pattern
 
--
+Når en function er udført på en property af et object, så kaldes det for en method. Når en method bliver kaldt, så er den bundet til dette object. Dette kan blive gjort gennem dot notation. Vi kan på denne måde få værdier fra object eller ændre object.
+
+```js
+// Create myObject. It has a value and an increment
+// method. The increment method takes an optional
+// parameter. If the argument is not a number, then 1
+// is used as the default.
+var myObject = {
+ value: 0,
+ increment: function (inc) {
+ this.value += typeof inc === 'number' ? inc : 1;
+ }
+};
+myObject.increment( );
+document.writeln(myObject.value); // 1
+myObject.increment(2);
+document.writeln(myObject.value); // 3
+```
 
 #### The Function Invocation Pattern
 
--
+Når en function ikke er property af et object, så bliver det kaldt som en function:
+
+```js
+var sum = add(3, 4); // sum is 7
+```
+
+Når en function er kaldt på denne måde, så er den bundet til det globale object. Dette var en fejl i designet af sproget.
+
+
+
+
+
+```js
+// Augment myObject with a double method.
+myObject.double = function ( ) {
+ var that = this; // Workaround.
+ var helper = function ( ) {
+ that.value = add(that.value, that.value);
+ };
+ helper( ); // Invoke helper as a function.
+};
+// Invoke double as a method.
+myObject.double( );
+document.writeln(myObject.getValue( )); // 6
+```
+
+
 
 #### The Constructor Invocation Pattern
 
